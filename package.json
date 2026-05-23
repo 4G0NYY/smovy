@@ -1,5 +1,5 @@
 {
-  "packageManager": "pnpm@9.14.4",
+  "packageManager": "pnpm@10.5.2",
   "name": "sudo-flix",
   "version": "4.7.0",
   "private": true,
