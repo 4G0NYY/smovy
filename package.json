@@ -3,7 +3,7 @@
   "name": "sudo-flix",
   "version": "4.7.0",
   "engines": {
-    "node": "20.x"
+    "node": "22.x"
   },
   "private": true,
   "homepage": "https://github.com/sussy-code/smov",
