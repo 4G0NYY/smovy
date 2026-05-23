@@ -9,9 +9,6 @@ import { handlebars } from "./plugins/handlebars";
 import { PluginOption, loadEnv, splitVendorChunkPlugin } from "vite";
 import { visualizer } from "rollup-plugin-visualizer";
 
-import tailwind from "tailwindcss";
-import rtl from "postcss-rtlcss";
-
 const captioningPackages = [
   "dompurify",
   "htmlparser2",
@@ -150,12 +147,6 @@ export default defineConfig(({ mode }) => {
         }
       }
     },
-    css: {
-      postcss: {
-        plugins: [tailwind(), rtl()],
-      },
-    },
-
     resolve: {
       alias: {
         "@": path.resolve(__dirname, "./src"),

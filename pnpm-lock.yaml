@@ -117,6 +117,18 @@ importers:
       ofetch:
         specifier: ^1.4.1
         version: 1.4.1
+      autoprefixer:
+        specifier: ^10.4.21
+        version: 10.4.21(postcss@8.5.3)
+      postcss:
+        specifier: ^8.5.3
+        version: 8.5.3
+      postcss-rtl:
+        specifier: ^2.0.0
+        version: 2.0.0(postcss@8.5.3)
+      postcss-rtlcss:
+        specifier: ^4.0.9
+        version: 4.0.9(postcss@8.5.3)
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -156,6 +168,15 @@ importers:
       subsrt-ts:
         specifier: ^2.1.2
         version: 2.1.2
+      tailwind-scrollbar:
+        specifier: ^3.1.0
+        version: 3.1.0(tailwindcss@3.4.17)
+      tailwindcss:
+        specifier: ^3.4.17
+        version: 3.4.17
+      tailwindcss-themer:
+        specifier: ^4.1.1
+        version: 4.1.1(tailwindcss@3.4.17)
       zustand:
         specifier: ^4.5.6
         version: 4.5.6(@types/react@18.3.21)(immer@10.1.1)(react@18.3.1)
@@ -235,9 +256,6 @@ importers:
       '@vitejs/plugin-react':
         specifier: ^4.4.1
         version: 4.4.1(vite@5.4.19(@types/node@20.17.44)(terser@5.39.0))
-      autoprefixer:
-        specifier: ^10.4.21
-        version: 10.4.21(postcss@8.5.3)
       cross-env:
         specifier: ^7.0.3
         version: 7.0.3
@@ -277,15 +295,6 @@ importers:
       jsdom:
         specifier: ^23.2.0
         version: 23.2.0
-      postcss:
-        specifier: ^8.5.3
-        version: 8.5.3
-      postcss-rtl:
-        specifier: ^2.0.0
-        version: 2.0.0(postcss@8.5.3)
-      postcss-rtlcss:
-        specifier: ^4.0.9
-        version: 4.0.9(postcss@8.5.3)
       prettier:
         specifier: ^3.5.3
         version: 3.5.3
@@ -295,15 +304,6 @@ importers:
       rollup-plugin-visualizer:
         specifier: ^5.14.0
         version: 5.14.0(@rollup/wasm-node@4.40.2)
-      tailwind-scrollbar:
-        specifier: ^3.1.0
-        version: 3.1.0(tailwindcss@3.4.17)
-      tailwindcss:
-        specifier: ^3.4.17
-        version: 3.4.17
-      tailwindcss-themer:
-        specifier: ^4.1.1
-        version: 4.1.1(tailwindcss@3.4.17)
       type-fest:
         specifier: ^4.41.0
         version: 4.41.0
